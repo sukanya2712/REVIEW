@@ -27,7 +27,7 @@ elif [ $tail_co -eq 21 ]
 then
    echo "tail  won"
 else
-   echo "It's tie"
+   echo tie$(($head_co $tail_co))
 fi
 
 
